@@ -5,6 +5,10 @@ body {
     height: 50vh;
 
     /* add solution here */
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    justify-content: center;
 }
 
 .child {
