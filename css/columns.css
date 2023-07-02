@@ -19,7 +19,7 @@ li {
     background-color: rgb(245, 173, 41);
 
     /* add solution here.. */
-    flex-shrink: 1;
+    flex-basis: 200px;
 }
 a {
     text-decoration: none;
