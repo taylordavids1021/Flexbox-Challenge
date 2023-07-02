@@ -1,8 +1,16 @@
+body {
+    font-family:sans-serif;
+}
 ul {
     list-style: none;
     width: 75vw;
 
     /* add solution here */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 50vh;
+    align-items: stretch;
 }
 
 li {
@@ -11,5 +19,22 @@ li {
     background-color: rgb(245, 173, 41);
 
     /* add solution here.. */
-
+    flex-shrink: 1;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+button {
+    border: solid 2px;
+    border-color: tan;
+    padding: 1rem;
+    background-color: rgba(210, 180, 140, 0.815);
+}
+a:hover {
+    color: white;
+} 
+button:hover {
+    background-color: rgba(218, 156, 75, 0.918);
 }

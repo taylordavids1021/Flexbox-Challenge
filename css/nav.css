@@ -1,8 +1,13 @@
+body {
+    font-family:sans-serif;
+}
 nav ul {
     list-style: none;
     padding-left: 0;
 
     /* add solution here */
+    display: flex;
+    justify-content:space-evenly;
 }
 
 li {
@@ -10,14 +15,27 @@ li {
 }
 
 a {
-    background-color: rgb(202, 202, 202);
+    /* background-color: rgb(202, 202, 202);
     padding: 0.5rem;
     border-radius: 6px;
     color: black;
+    text-decoration: none; */
+    border: solid 2px;
+    border-color: tan;
+    padding: 1rem;
+    background-color: rgba(210, 180, 140, 0.815);
     text-decoration: none;
+    color: black;
 }
 
 a:hover {
-    background-color: rgb(75, 75, 218);
+    background-color: rgba(218, 156, 75, 0.918);
     color: white;
 }
+
+/* button {
+    border: solid 2px;
+    border-color: tan;
+    padding: 1rem;
+    background-color: rgba(210, 180, 140, 0.815);
+} */

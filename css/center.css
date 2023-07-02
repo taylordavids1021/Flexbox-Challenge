@@ -1,3 +1,6 @@
+body {
+    font-family:sans-serif;
+}
 .parent {
     height: 50vh;
 
@@ -8,4 +11,21 @@
     background-color: darkolivegreen;
     color: white;
     padding: 1rem;
+}
+
+button {
+    border: solid 2px;
+    border-color: tan;
+    padding: 1rem;
+    background-color: rgba(210, 180, 140, 0.815);
+}
+a {
+    text-decoration: none;
+    padding: 1rem;
+}
+a:hover {
+    color: white;
+} 
+button:hover {
+    background-color: rgba(218, 156, 75, 0.918);
 }
