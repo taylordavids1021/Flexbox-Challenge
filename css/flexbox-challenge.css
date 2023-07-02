@@ -1,5 +1,8 @@
 body{
     font-family:sans-serif;
+    background-image: url("/img/alignment.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 ul {
     display: flex;
@@ -13,8 +16,14 @@ li {
     border: solid 2px;
     border-color: tan;
     padding: 2rem;
+    background-color: rgba(210, 180, 140, 0.815);
+}
+li:hover {
+    border: solid 3px ;
+    border-color: black;
 }
 a {
     text-decoration: none;
     color: black;
+    font-weight: 500;
 }
